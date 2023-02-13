@@ -7,8 +7,12 @@
     border-color: aqua;
 }
 
-#container .row .col {
+.col {
     padding: 20px;
     border-style: solid;
     background-color: aliceblue;
+}
+
+.col:hover {
+    background-color: black;
 }
