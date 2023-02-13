@@ -1,3 +1,16 @@
 #container {
-    background-color: black;
+    display: block;
+}
+
+#container .row {
+    display: flex;
+    justify-content: space-around;
+    border-color: aqua;
+    flex-grow: 1;
+}
+
+#container .row .col {
+    padding:5px;
+    border-style: solid;
+    background-color: aliceblue;
 }
