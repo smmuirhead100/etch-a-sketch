@@ -13,4 +13,12 @@ function createGrid(x) {
     }
 }
 
-createGrid(16)
+function createGridStarter() {
+    let num = prompt("How big do you want your grid? (0-16)")
+    createGrid(num);
+}
+
+const btn = document.querySelector('#bt'); 
+btn.addEventListener('click', () => {
+    createGridStarter();
+})
